@@ -67,6 +67,8 @@ def wall_clock_timer(all_trys):
     return sum(wall_clock_times)/len(wall_clock_times)
 ```
 
+**Show the size of a file/folder on Linux**: du -hc --max-depth=0 /folder/path/
+
 **Enable/Disable tqdm progress bar**: for i in tqdm(range(10), disable=False/True)
 
 **TF OD model zoo**: [link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
